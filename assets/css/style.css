@@ -1,0 +1,128 @@
+header {
+    min-height:700px;
+    background-size:cover;
+    background-image:url('../images/img_header.jpg');
+}
+
+h1, h2, h3, h4, h5, h6,
+.span1, .span2, .span4
+{
+    font-family: "Satisfy", sans-serif;
+}
+
+.span4
+{
+    color: white;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f5950;
+}
+
+.section-title h2 span, .span1, .navbarLogo {
+    color: #ffb03b;
+}
+
+.navbarLogo
+{
+    margin-left: 40px;
+    padding-right: 40px;
+}
+
+.section-title p {
+    margin: 15px auto 0 auto;
+    font-weight: 300;
+}
+
+.txtFooter
+{
+    text-align: center;
+    padding: 10px;
+}
+.marginFooter
+{
+    margin-top: 40px;
+}
+
+.myFooter {
+    position: relative;
+    z-index: 1;
+}
+
+.myFooter .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../images/img_footer.jpg') center center;
+    opacity: .4;
+    min-height:300px;
+    min-width: 700px;
+}
+
+.hidden-spacer {
+    height: 60px;
+}
+
+.navbarColor
+{
+    background-color: #212529e3;
+    color: white;
+}
+
+.box span
+{
+    display: inline;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffcf88;
+}
+
+#txtBannerTitle
+{
+    padding-top: 250px;
+    padding-left: 80px;
+    font-size: 58px;
+    font-weight: 700;
+    position: relative;
+}
+
+#photoEntree, #photoRepas
+{
+    width: 280px;
+    height:280px;
+    display: none;
+}
+
+#imgMargin
+{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
